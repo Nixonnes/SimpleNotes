@@ -1,0 +1,5 @@
+/vendor/
+*.log
+*.env
+/node_modules/
+config/mysql.php
