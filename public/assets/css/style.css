@@ -1,0 +1,138 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: #323232;
+    color: #f5ff1d;
+    height:50px;
+}
+a {
+    color:inherit;
+    text-decoration: none;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+
+}
+main {
+
+    color: #373636;
+    flex:1;
+    min-height: 100%;
+    margin-left:20vw;
+    max-width: 60vw;
+}
+.logo {
+    margin-left:15vw;
+}
+.create_btn {
+
+    margin-top: 20px;
+}
+.primary_btn {
+    margin:12px;
+    padding:4px;
+    background-color: #222222;
+    color:white;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.danger_btn {
+    margin:12px;
+    padding:5px;
+    background-color: #dd0101;
+    color: #1b1a1a;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.form-group{
+    min-width: 100%;
+    border:1px solid rgba(34, 34, 34, 0.4);
+    border-radius:8px;
+    padding:16px;
+    min-height:25vh;
+}
+.text-input {
+    width: 100%;
+    height:2.5rem;
+    border:0;
+    padding: 12px;
+    font-weight: 600;
+    font-size:1.5rem;
+}
+.note_block__time {
+    margin-left:14px;
+    font-size:0.8rem;
+    color: #373636;
+}
+.textarea-input {
+    resize:none;
+    width:100%;
+    height:450px;
+    border:0;
+    padding: 12px;
+    border-radius: 8px;
+}
+.crt_btn {
+    background-color: #f5ff1d;
+    color: #323232;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.top_header {
+    margin:16px;
+}
+.note_block {
+    min-height:200px;
+    border:1px solid rgba(156, 156, 156, 0.4);
+    border-radius: 8px;
+    padding:12px;
+    margin:14px;
+    background-color: #e3e3e3;
+}
+.note_block__title {
+    font-weight: 600;
+    margin:12px;
+    font-size:0.8rem;
+}
+.note_block__content {
+    margin:12px;
+    font-size:0.87rem;
+
+}
+.note_page__title {
+    color: #373636;
+    margin-bottom:18px;
+    margin-top:12px;
+    font-size:0.8rem;
+    border-bottom:1px solid black;
+}
+.note_page__content {
+    margin-top:32px;
+    font-size:0.87rem;
+}
+.flash-message {
+    position: fixed;
+    top: 4px;
+    left: 8%;
+    transform: translateX(-50%);
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #e42121;
+    background-color: #271c1c;
+    z-index: 9999;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.flash-success {
+    background-color: #e4e4e4;
+    color:black;
+}
